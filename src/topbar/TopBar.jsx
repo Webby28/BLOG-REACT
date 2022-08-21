@@ -10,10 +10,10 @@ export default function TopBar() {
         </div>
         <div className="topCenter">
             <ul className="topList">
-                <li className="toplist">Pagina Principal</li>
-                <li className="toplist">Acerca de</li>
-                <li className="toplist">Contacto</li>
-                <li className="toplist">Cerrar Sesión</li>
+                <li className="topListItem">Pagina Principal</li>
+                <li className="topListItem">Acerca de</li>
+                <li className="topListItem">Contacto</li>
+                <li className="topListItem">Cerrar Sesión</li>
             </ul>
             
         </div>
