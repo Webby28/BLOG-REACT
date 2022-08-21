@@ -1,0 +1,7 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    position: -webkit-sticky;
+    position: sticky; /* para que el navbar o topbar esté siempre visible*/    top: 0;
+}
