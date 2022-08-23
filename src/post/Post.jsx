@@ -2,7 +2,7 @@ import "./post.css"
 
 export default function Post() {
     return (
-    <div className="Post">
+    <div className="post">
         <img 
         className="postImg"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fondo_Dem%C3%B3crito_y_Her%C3%A1clito.jpg/800px-Fondo_Dem%C3%B3crito_y_Her%C3%A1clito.jpg?20201117112700" 
