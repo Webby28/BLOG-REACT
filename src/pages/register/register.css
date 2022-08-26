@@ -1,4 +1,4 @@
-.login{
+.register{
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
         rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0.5)
         ),
-        url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")  no-repeat center center fixed;;
+        url("https://images.unsplash.com/photo-1595126731003-755959b6baf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")  no-repeat center center fixed;;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,33 +16,33 @@
 
 }
 
-.loginTitle{
+.registerTitle{
     font-size: 50px;
 }
 
-.loginForm{
+.registerForm{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.loginForm > label {
+.registerForm > label {
     margin: 10px 0;
 
 
 }
 
-.loginInput{
+.registerInput{
     padding: 10px;
     background-color: white;
     border: none;
 
 }
 
-.loginButton{
+.registerButton{
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: teal;
     border: none;
     color: white;
     border-radius: 10px;
@@ -50,11 +50,11 @@
 
 }
 
-.loginRegisterButton{
+.registerLoginButton{
    position: absolute;
    top: 60px;
    right: 20px;
-   background-color: teal;
+   background-color: lightcoral;
    cursor: pointer;
    border: none;
    padding: 10px;
