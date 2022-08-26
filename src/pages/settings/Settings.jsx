@@ -22,10 +22,14 @@ export default function Settings() {
                     <input type="file" id="fileInput" style={{ display:"none" }}/>
                 </div>
                 <label>Nombre de Usuario</label>
-                <input type="email" placeholder="Email"/>
+                <input type="text" placeholder="Usuario"/>
+
                 <label>Correo Electronico</label>
-                <input type="password"/>
+                <input type="email" placeholder="ejemplo@gmail.com"/>
+                
                 <label>Contraseña</label>
+                <input type="password"/>
+                
                 <button className="settingsSubmit">Enviar</button>
             </form>
         </div>
