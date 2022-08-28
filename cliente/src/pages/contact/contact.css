@@ -1,0 +1,19 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.contact-text{
+    
+    width: 100w;
+    height: 60vh;
+    padding: 10px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 1.5rem;
+
+}
