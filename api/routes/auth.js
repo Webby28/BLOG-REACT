@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const User = require("../modles/User")
+const User = require("../models/User")
 
 
 //REGISTRO
@@ -20,3 +20,6 @@ router.post("/register", async (req, res)=> {
 
 
 //INICIO DE SESIÓN
+
+
+module.exports = router
