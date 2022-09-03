@@ -32,4 +32,4 @@ const PostSchema = new mongoose.Schema({
 {timestamps: true} //para saber cuando se creo y/o actualizo
 );
 
-module.exports = mongoose.model("User", PostSchema);
+module.exports = mongoose.model("Post", PostSchema);
