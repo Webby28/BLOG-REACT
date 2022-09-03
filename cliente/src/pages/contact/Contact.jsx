@@ -1,5 +1,5 @@
 import "./contact.css"
-import contact from '../images/contacto.jpg';
+import contact from '../../components/images/contacto.jpg';
 
 export default function Contact() {
   return (
