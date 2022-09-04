@@ -11,4 +11,4 @@ const CategorySchema = new mongoose.Schema({
 {timestamps: true} //para saber cuando se creo y/o actualizo
 );
 
-module.exports = mongoose.model("User", CategorySchema);
+module.exports = mongoose.model("Category", CategorySchema);
