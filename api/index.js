@@ -20,19 +20,18 @@ mongoose
   .catch((err) => console.log(err));
 
   const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+      cb(null, "images");
+    },
+    filename: (req, file, cb) => {
+      cb(null, "Brisa.jpg");
+    },
+  });
   
-  destintaion:(req,file,callback) =>{
-    callback(null, "images");
-  }, filename:(req,file,callback)=> {
-    callback(null, "hello.jpg");
-  }, 
-});
-
-const upload = multer({storage:storage});
-
-app.post("/api/upload", upload.single("file"),(req,res)=>{
-  res.status(200).json("El archivo se cargó")
-})
+  const upload = multer({ storage: storage });
+  app.post("/api/upload", upload.single("file"), (req, res) => {
+    res.status(200).json("Se cargó el archivo");
+  });
 
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
